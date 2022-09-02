@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+
+}
+.header-ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 850px;
+  width: 100%;
+}
+.header-li {
+  font-size: 20px;
+  margin-right: 25px;
+}
+.logo {
+  width: 60px;
+  height: 50px;
+}
+.shop-logo {
+  margin-right: 25px
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px;
+  background-color: #707070;
+  padding: 20px;
+} 
+.footer-about-div h3 {
+  font-size: 20px;
+  margin-bottom: 7px;
+  color: #393939;
+}
+.footer-about-div p {
+  font-size: 15px;
+  color: #393939;
+}
+.footer-contact-div div {
+  display: flex;
+  align-items: center;
+}
+.footer-contact-div p {
+  font-size: 15px;
+  color: #393939;
+  margin: 5px;
+}
