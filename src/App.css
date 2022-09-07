@@ -46,7 +46,63 @@
   align-items: center;
 }
 .footer-contact-div p {
-  font-size: 15px;
-  color: #393939;
+  font-size: 12px;
   margin: 5px;
+}
+.mySwiper {
+  margin: 0 auto;
+  padding: 30px 90px;
+}
+.swiper-img {
+  width: 1100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px auto;
+}
+.partner-title {
+  margin: 20px 50px;
+  font-size: 20px;
+  color: #707070;
+  font-weight: bolder;
+}
+.partners-card-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.partner-card {
+  display: flex;
+  border-radius: 15px;
+  background-color: #dcdcdc;
+  width: 400px;
+  padding: 10px;
+}
+.partner-card-text {
+  margin-left: 30px;
+  margin-top: 20px;
+  width: 70px;
+}
+.partner-card-text h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #707070;
+}
+.partner-p-div {
+  width: 110px;
+  margin-top: 70px;
+  border-style: dotted;
+  border-width: medium;
+  padding-left: 15px;
+  font-size: 12px;
+  color: #707070;
+}
+.partner-card-img {
+  display: flex;
+  flex-direction: column;
+  padding-left: 110px;
+}
+.partner-card-img img {
+  margin-top: 20px;
+  width: 45px;
 }
