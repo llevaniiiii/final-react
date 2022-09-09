@@ -1,0 +1,40 @@
+.Main{
+    width: 96.8%;
+    height: 500px;
+    background: rgb(53, 52, 0);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Leftside{
+width: 40%;
+color: #18bab9;
+}
+.Rightside{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+.Leftside_button{
+    zoom: 130%;
+    color: #18bab9;
+}
+.Leftside_text1{
+    margin-bottom: 30px;
+}
+.Leftside_text2{
+    margin-bottom: 30px;
+}
+.Rightside_img{
+    width: 320px;
+    height: 350px;
+    background: white;
+    border-radius: 5px 50px 50px 5px;
+    margin-left: 200px;
+    background-image: url(../advert/images/iphone.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

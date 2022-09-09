@@ -1,0 +1,71 @@
+.P_Main{
+    width: 96.8%;
+    height: 660px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    overflow-y: scroll;
+}
+.P_Item{
+    width: 350px;
+    height: 300px;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+.P_Item_Image{
+    width: 300px;
+    height: 200px;
+    background: yellow;
+    background-image: url(./images/iphone.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    border-radius: 16px;
+}
+.P_Item_Text{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 15px;
+}
+.P_Item_Text2{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 15px;
+}
+.P_Item_Stars_Cont{
+    display: flex;
+    justify-content: center;
+}
+.P_Item_Star{
+    width: 15px;
+    height: 15px;
+    background: url(./images/star.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.P_Main::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.P_Main::-webkit-scrollbar
+{
+	width: 8px;
+	background-color: #F5F5F5;
+}
+
+.P_Main::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #18bab9;
+}

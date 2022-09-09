@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 
-import slider_img from "../imgs/slider_img.png"
+import room from "../imgs/room.jpeg"
 
 // import required modules
 import { Pagination, Navigation } from "swiper";
@@ -21,19 +21,19 @@ export default function swiper() {
       >
         <SwiperSlide>
           <img
-            src={slider_img}
+            src={room}
             className="swiper-img"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src={slider_img}
+            src={room}
             className="swiper-img"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src={slider_img}
+            src={room}
             className="swiper-img"
           />
         </SwiperSlide>
