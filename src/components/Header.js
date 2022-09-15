@@ -2,7 +2,7 @@ import logo from "../imgs/logo.png";
 import shop from "../imgs/shop.svg";
 import login from "../imgs/login.svg";
 
-export default function Header() {
+export default function Header({myseter}) {
     return(
         <header className="header">
             <img className="logo" src={logo} />
@@ -16,8 +16,8 @@ export default function Header() {
                 </ul>
             </nav>
             <div>
-                <img className="shop-logo" src={shop} width="40px"/>
-                <img src={login} width="40px"/>
+                <button className="button"><img className="shop-logo" src={shop} width="40px"/></button>
+                <button onClick={() => myseter(true)} className="button"><img src={login} width="40px"/></button>
             </div>
         </header>
     )

@@ -1,0 +1,70 @@
+.section {
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    background-color: hsla(0, 0%, 31%, 0.374) ;
+    z-index: 87398;
+}
+.sign-in-form {
+    width: 350px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+}
+.sign-in-form h2 {
+    color: #28696A;
+    font-weight: bolder;
+    margin: 12px 60px;
+    font-size: 14px;
+}
+.sign-in-form h2 >button {
+    font-size: 16;
+    font-weight: 900;
+    border: none;
+    background-color: white;
+    color: #28696A;
+}
+.sign-in-info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+.sign-in-info >input {
+    border-color: #16D3D8;
+    border-width: 1px;
+    margin: 8px auto;
+    width: 200px;
+    height: 40px;
+    padding: 0 10px;
+    border-radius: 15px;
+    color: #28696A;
+    font-weight: bold;
+}
+.sign-in-submit {
+    margin: 8px 65px;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #16D3D8;
+    border: none;
+}
+.repassword {
+    border: none;
+    background-color: white;
+    color: #16D3D8;
+    margin-left: 95px;
+}
+.sign-in-form > button {
+    border: none;
+    background-color: white;
+    color: red;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 300px;
+  }
