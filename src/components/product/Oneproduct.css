@@ -1,0 +1,88 @@
+.swiperAndPrise {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.swiper {
+  width: 500px;
+  height: 600px;
+  padding: 50px;
+  padding-top: 100px;
+}
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+.phonecase {
+    height: 400px;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+.productBuyWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.productBuyWrapper > p {
+    font-size: 30px;
+    color: #707070;
+    margin-bottom: 20px;
+}
+.wtatproduct p {
+    color: #707070;
+    font-size: 16px;
+    margin-bottom: 3px;
+}
+.shopbutton {
+    background-color: #16D3D8;
+    color: #707070;
+    font-size: 25px;
+    border: none;
+    margin: 20px 0;
+}
+.dummy {
+    width: 89px;
+    height: 44px;
+    background-color: #F4F2F0;
+    border: solid 1px #16D3D8;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/*-about product-*/
+.about {
+    margin: 50px auto 220px;
+    width: 1080px;
+}
+.about div {
+    margin: 20px 0;
+}
+.about p {
+    color: #707070;
+    font-size: 18px;
+}
+.about button {
+    color: #707070;
+    background-color: #16D3D8;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+/*sameproduct*/
+h2 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #707070;
+    margin: 40px;
+}
+.sameproduct {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+

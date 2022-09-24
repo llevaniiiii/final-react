@@ -1,7 +1,7 @@
 import style from './profile.css';
 
 export default function Profile({myseter}) {
-    return(
+    return (
         <section className="section">
             <form class="sign-in-form" method="POST">
                 <h2>ავტორიზაცია <button>რეგისტრაცია</button></h2>

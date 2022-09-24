@@ -9,6 +9,7 @@ import Swiper from './components/HemopgSecondSwiper/HemopgSecondSwiper';
 import Detals from './components/Partners/detals';
 import { useState } from 'react';
 import Profile from './components/profile/profile';
+import Oneproduct from './components/product/Oneproduct';
 
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
         : null
       }
       <Footer />
+      <Oneproduct />
     </div>
   );
 }
