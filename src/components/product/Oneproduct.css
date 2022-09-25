@@ -43,6 +43,7 @@
     font-size: 25px;
     border: none;
     margin: 20px 0;
+    border-radius: 5px;
 }
 .dummy {
     width: 89px;

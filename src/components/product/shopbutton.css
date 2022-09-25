@@ -1,0 +1,38 @@
+.section {
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    background-color: hsla(0, 0%, 31%, 0.595) ;
+    z-index: 87398;
+}
+.wrapper {
+    width: 620px;
+    height: 200px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+.wrapper p {
+    font-size: 20px;
+    color: #707070;
+    margin: 0 auto;
+    margin: 22px 0;
+}
+.wrapper button {
+    border: none;
+    border-radius: 15px;
+    width: 450px;
+    height: 30px;
+    background-color: #16D3D8;
+    color: #707070;
+    font-size: 18px;
+    margin-top: 15px;
+}

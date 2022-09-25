@@ -18,7 +18,7 @@ import { EffectFlip, Pagination, Navigation } from "swiper";
 import { useState } from 'react';
 import Footer from '../Footer';
 
-export default function Oneproduct() {
+export default function Oneproduct({myshopseter}) {
 
     const [numberproduct, setnumberproduct] = useState (1);
 
@@ -54,7 +54,7 @@ export default function Oneproduct() {
                         <p>თავსებადობა: Samsung Galaxy Note 10+</p>
                         <p>მასალა: სილიკონი</p>
                     </div>
-                    <button className='shopbutton'>კალათაში დამატება</button>
+                    <button className='shopbutton' onClick={() => myshopseter(true)}>კალათაში დამატება</button>
                     <div className='dummy'>
                        <button onClick={() => setnumberproduct(1)}>-</button>
                        <p>{numberproduct}</p>

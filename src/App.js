@@ -10,12 +10,14 @@ import Detals from './components/Partners/detals';
 import { useState } from 'react';
 import Profile from './components/profile/profile';
 import Oneproduct from './components/product/Oneproduct';
+import Shopbutton from './components/product/shopbutton';
 
 
 function App() {
 
   const [ detalstatus , setdetalstatus] = useState(false)
   const [ profilestate , setprofilestate ] = useState(false)
+  const [ shopbutton, setshopbutton ] = useState(false)
 
   return (
     <div>
@@ -35,7 +37,12 @@ function App() {
         : null
       }
       <Footer />
-      <Oneproduct />
+      <Oneproduct myshopseter={setshopbutton}/>
+      {
+        shopbutton ?
+        <Shopbutton myshopseter={setshopbutton}/>
+        : null
+      }
     </div>
   );
 }
