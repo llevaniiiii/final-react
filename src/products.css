@@ -41,6 +41,61 @@
     margin: auto;
     border-radius: 16px;
 }
+.Pr_Item_Image2{
+    width: 300px;
+    height: 200px;
+    background: yellow;
+    background-image: url(./images/imgcase.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    border-radius: 16px;
+} 
+.Pr_Item_Image3{
+    width: 300px;
+    height: 200px;
+    background: yellow;
+    background-image: url(./images/imgmac.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    border-radius: 16px;
+} 
+.Pr_Item_Image4{
+    width: 300px;
+    height: 200px;
+    background: yellow;
+    background-image: url(./images/imgps.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    border-radius: 16px;
+} 
+.Pr_Item_Image5{
+    width: 300px;
+    height: 200px;
+    background: yellow;
+    background-image: url(./images/imgcase3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    border-radius: 16px;
+} 
+.Pr_Item_Image6{
+    width: 300px;
+    height: 200px;
+    background: yellow;
+    background-image: url(./images/personalcomputer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    border-radius: 16px;
+} 
 .Pr_Item_Text{
     text-align: center;
     font-size: 18px;
@@ -103,8 +158,7 @@
 .Pr_Item_button2{
     width: 200px;
     height: 40px;
-    background: #3AE24B;
-    border: 1px solid #3AE24B;
+    background: rgb(8, 120, 111);
     box-shadow: 0px 7px 21px rgba(58, 226, 75, 0.23);
     display: flex;
     margin: auto;
@@ -129,3 +183,5 @@
     margin-top: 15px;
     margin-bottom: 25px;
 }
+
+

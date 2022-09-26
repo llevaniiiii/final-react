@@ -17,13 +17,15 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectFlip, Pagination, Navigation } from "swiper";
 import { useState } from 'react';
 import Footer from '../Footer';
+import Header from '../Header';
 
-export default function Oneproduct({myshopseter}) {
+export default function Oneproduct() {
 
     const [numberproduct, setnumberproduct] = useState (1);
 
     return (
         <section>
+            <Header/>
             <div className='swiperAndPrise'>
                 <div className='mySwiperdiv'>
                     <Swiper
@@ -54,7 +56,7 @@ export default function Oneproduct({myshopseter}) {
                         <p>თავსებადობა: Samsung Galaxy Note 10+</p>
                         <p>მასალა: სილიკონი</p>
                     </div>
-                    <button className='shopbutton' onClick={() => myshopseter(true)}>კალათაში დამატება</button>
+                    <button className='shopbutton' >კალათაში დამატება</button>
                     <div className='dummy'>
                        <button onClick={() => setnumberproduct(1)}>-</button>
                        <p>{numberproduct}</p>

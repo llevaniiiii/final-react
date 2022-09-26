@@ -10,7 +10,7 @@ import Detals from './components/Partners/detals';
 import { useState } from 'react';
 import Profile from './components/profile/profile';
 import Oneproduct from './components/product/Oneproduct';
-import Shopbutton from './components/product/shopbutton';
+import Shopbutton from './components/popular/shopbutton';
 
 
 function App() {
@@ -28,7 +28,12 @@ function App() {
         :null
       }
       <Advert />
-      <Popular />
+      <Popular myshopseter={setshopbutton}/>
+      {
+        shopbutton ?
+        <Shopbutton myshopseter={setshopbutton}/>
+        : null
+      }
       <Swiper />
       <Partners seter={setdetalstatus} />
       {
@@ -37,12 +42,6 @@ function App() {
         : null
       }
       <Footer />
-      <Oneproduct myshopseter={setshopbutton}/>
-      {
-        shopbutton ?
-        <Shopbutton myshopseter={setshopbutton}/>
-        : null
-      }
     </div>
   );
 }

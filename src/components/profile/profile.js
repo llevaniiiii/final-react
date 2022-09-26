@@ -30,13 +30,13 @@ export default function Profile({myseter}) {
                 <input type="text" name="username" id="username" placeholder="სახელი" /> 
             </div>
             <div class="sign-in-info">
-                <input type="text" name="password" id="username" placeholder="გვარი" />
+                <input type="text" name="name" id="username" placeholder="გვარი" />
             </div>
             <div class="sign-in-info">
-                <input type="text" name="password" id="username" placeholder="ტელეფონი" />
+                <input type="number" name="number" id="username" placeholder="ტელეფონი" />
             </div>
             <div class="sign-in-info">
-                <input type="text" name="password" id="username" placeholder="ელ - ფოსტა" />
+                <input type="email" name="email" id="email" placeholder="ელ - ფოსტა" />
             </div>
             <div class="sign-in-info">
                 <input type="password" name="password" id="password" placeholder="პაროლი" />
