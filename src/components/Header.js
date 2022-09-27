@@ -2,18 +2,27 @@ import logo from "../imgs/logo.png";
 import shop from "../imgs/shop.svg";
 import login from "../imgs/login.svg";
 import { Outlet, Link } from "react-router-dom";
+import i18n from 'i18next'
+import { useTranslation } from 'react-i18next'
 
 export default function Header({myseter}) {
+
+    function lang(language) {
+        i18n.changeLanguage(language)
+      }
+
+    const {t} = useTranslation()
+
     return(
         <header className="header">
             <img className="logo" src={logo} />
             <nav>
                 <ul className="header-ul">
-                    <a className="header-li" href="/">მთავარი</a>
-                    <a className="header-li" href="/products">პროდუქტები</a>
-                    <li className="header-li">ფასდაკლებები</li>
-                    <li className="header-li">კონტაქტი</li>
-                    <li className="header-li">პარტნიორები</li>
+                    <a className="header-li" href="/">{t('მთავარი')}</a>
+                    <a className="header-li" href="/products">{t('პროდუქტები')}</a>
+                    <li className="header-li">{t('ფასდაკლებები')}</li>
+                    <li className="header-li">{t('კონტაქტი')}</li>
+                    <li className="header-li">{t('პარტნიორები')}</li>
                 </ul>
             </nav>
             <div>
@@ -21,6 +30,10 @@ export default function Header({myseter}) {
                 <button onClick={() => myseter(true)} className="button"><img src={login} width="40px"/></button>
             </div>
             <Outlet />
+            <div className="language">
+                <button onClick={() => lang('ka')}>ka</button> 
+                <button onClick={() => lang('en')}>en</button>
+            </div>
         </header>
     )
 }

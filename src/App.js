@@ -12,6 +12,30 @@ import Profile from './components/profile/profile';
 import Oneproduct from './components/product/Oneproduct';
 import Shopbutton from './components/popular/shopbutton';
 
+/* i18Next*/
+import i18n from "i18next";
+import { initReactI18next, useTranslation } from "react-i18next";
+
+const resources = {
+  en: {
+    translation: require ("./i18n/en.json")
+  },
+  ka: {
+    translation: require ("./i18n/ka.json")
+  }
+};
+
+i18n
+  .use(initReactI18next) 
+  .init({
+    resources,
+    lng: "ka", 
+
+    interpolation: {
+      escapeValue: false 
+      
+    }
+  });
 
 function App() {
 
