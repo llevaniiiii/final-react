@@ -31,8 +31,8 @@ export default function Header({myseter}) {
             </div>
             <Outlet />
             <div className="language">
-                <button onClick={() => lang('ka')}>ka</button> 
-                <button onClick={() => lang('en')}>en</button>
+                <button onClick={() => lang('ka')}>Ge</button> 
+                <button onClick={() => lang('en')}>En</button>
             </div>
         </header>
     )

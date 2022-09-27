@@ -1,11 +1,9 @@
 .mySwiper {
-    margin: 0 auto;
-    padding: 30px 90px;
+    margin: 40px auto;
   }
   .swiper-img {
-    width: 700px;
+    width: 900px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 30px auto;
   }

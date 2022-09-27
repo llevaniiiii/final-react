@@ -183,5 +183,12 @@
     margin-top: 15px;
     margin-bottom: 25px;
 }
-
+.Pr_Item_button1:hover{
+    background: rgba(12, 175, 245, 0.5);
+    transition: 0.3s;
+}
+.Pr_Item_button2:hover{
+    background: rgba(58, 226, 75, 0.5);
+    transition: 0.3s;
+}
 
